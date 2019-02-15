@@ -1,3 +1,5 @@
+@import "semantic-ui";
+
 .ui.stackable.menu,
 .ui.container.content {
   margin-top: 16px !important;
@@ -86,4 +88,15 @@ body {
   
   label {
     display: block;
+  }
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    & .ui {
+      margin-top: 16px;
+      flex: 1;
+    }
   }
