@@ -34,6 +34,7 @@ gem 'faker', '~> 1.8.7'
 # Semantic UI Css library
 gem 'semantic-ui-sass'
 
+
 gem 'react_on_rails', '11.2.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

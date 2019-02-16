@@ -4,6 +4,22 @@
 .ui.container.content {
   margin-top: 16px !important;
 }
+form[action="search"] button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.ui.stackable.menu {
+  @media (max-width: 768px) {
+    .item, .right.menu {
+      display: none;
+    }
+    .header.item {
+      display: block;
+    }
+  }
+}
 
 body {
     background-color: #dde3ea !important;
